@@ -1,4 +1,5 @@
 html {
+  background-color: #EEFFF5;
   font-size: 1em;
   padding: 2%;
 }
@@ -8,12 +9,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #0C8066;
   font-family: 'Changa One', cursive;
   font-weight: normal;
 }
 
 a {
+  color: #0C8066;
   text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 li {
