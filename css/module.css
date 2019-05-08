@@ -24,6 +24,60 @@
   text-align: right;
 }
 
+.collapsible {
+  display: block;
+}
+
+.collapsible input {
+  position: absolute;
+  left: -9999px;
+  &:focus ~ .collapser{
+    border-color: grey;
+  }
+}
+
+.collapser {
+  cursor: pointer;
+  border: 1px transparent dotted;
+}
+
+.arrow {
+  float: right;
+  display: inline-block;
+  margin-left: 0.5em;
+  transform: rotate(90deg);
+  transition: transform .25s ease-out;
+}
+
+.collapsed {
+  font-size: 0;
+  margin: 0;
+  opacity: 0
+  padding: 0;
+  transition:
+    opacity .25s,
+    margin .5s 0.25s,
+    font-size .5s 0.25s,
+    padding .5s .25s;
+}
+
+.collapsible input:checked ~ .arrow,
+.collapsible input:checked ~ .collapser .arrow {
+  transform: rotate(270deg);
+}
+
+.collapsible input:checked ~ .collapsed {
+  font-size: 1em;
+  opacity: 1;
+  height: auto;
+  padding: 5px 0;
+  transition:
+    margin .25s,
+    padding .25s,
+    font-size .25s,
+    opacity .5s .25s;
+}
+
 @media only screen and (min-width: 640px) {
   .icon-menu {
     display: none;
