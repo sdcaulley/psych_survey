@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?tqvmwt');
-  src:  url('fonts/icomoon.eot?tqvmwt#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?tqvmwt') format('truetype'),
-    url('fonts/icomoon.woff?tqvmwt') format('woff'),
-    url('fonts/icomoon.svg?tqvmwt#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ofx057');
+  src:  url('fonts/icomoon.eot?ofx057#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ofx057') format('truetype'),
+    url('fonts/icomoon.woff?ofx057') format('woff'),
+    url('fonts/icomoon.svg?ofx057#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -47,4 +47,31 @@
 }
 .icon-enter:before {
   content: "\ea13";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-font:before {
+  content: "\ea5c";
+}
+.icon-ligature:before {
+  content: "\ea5d";
+}
+.icon-ligature2:before {
+  content: "\ea5e";
+}
+.icon-text-height:before {
+  content: "\ea5f";
+}
+.icon-text-width:before {
+  content: "\ea60";
 }
