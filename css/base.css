@@ -1,4 +1,7 @@
-html {}
+html {
+  font-size: 1em;
+  padding: 2%;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -6,4 +9,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Changa One', cursive;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

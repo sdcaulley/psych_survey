@@ -1,0 +1,62 @@
+.icon-menu {
+  font-size: 3em;
+  float: right;
+}
+
+.main-nav {
+  display: inline-block;
+  float: right;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav li {
+  display: block;
+  text-align: right;
+}
+
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+  .header {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  .main-nav {
+    display: block;
+    float: none;
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+  }
+  .main-nav ul {
+    display: inline;
+    margin: auto;
+    }
+  .main-nav:hover ul {
+    display: inline;
+  }
+  .main-nav li {
+    display: inline-block;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .desktop-view {
+    width: 30%;
+  }
+
+}
