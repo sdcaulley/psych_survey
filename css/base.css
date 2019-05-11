@@ -1,5 +1,5 @@
 html {
-  background-color: #EEFFF5;
+  background-color: FloralWhite;
   font-size: 1em;
   padding: 2%;
 }
@@ -12,10 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #0C8066;
   font-family: 'Changa One', cursive;
   font-weight: normal;
+  text-align: center;
 }
 
 a {
-  color: #0C8066;
   text-decoration: none;
 }
 
@@ -25,4 +25,50 @@ a:hover {
 
 li {
   list-style: none;
+  padding: 1em;
+}
+
+section {
+  padding: 1em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  background-color: #d0fbf1;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 48%;
+}
+#purpose div {
+  background-color: #4b16e9;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+#faq p {
+  background-color: #8c0d6c;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
+
+#about div {
+  background-color: #7e0c0c;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
 }
