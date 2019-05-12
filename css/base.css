@@ -1,6 +1,8 @@
 html {
   background-color: FloralWhite;
   font-size: 1em;
+  margin: auto;
+  max-width: 1400px;
   padding: 2%;
 }
 
@@ -41,17 +43,6 @@ button {
   margin: 0 auto;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.flex-item {
-  background-color: #d0fbf1;
-  border-radius: 0.5em;
-  padding: 0.5em;
-  margin: 0.5em;
-  width: 48%;
-}
 #purpose div {
   background-color: #4b16e9;
   border-radius: 0.5em;

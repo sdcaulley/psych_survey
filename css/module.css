@@ -96,6 +96,14 @@ ul {
     opacity .5s .25s;
 }
 
+.flex-item {
+  background-color: #d0fbf1;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 90%;
+}
+
 @media only screen and (min-width: 640px) {
   h1 {font-size: 4.209em}
 
@@ -115,6 +123,9 @@ ul {
     color: white;
   }
 
+  ul {
+    background-color: inherit;
+  }
   .icon-menu {
     display: none;
   }
@@ -142,11 +153,8 @@ ul {
   }
   .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
-  .desktop-view {
-    width: 30%;
+  .flex-item {
+    width: 48%;
   }
-
 }
