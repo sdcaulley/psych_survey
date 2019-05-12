@@ -57,3 +57,13 @@ button {
   color: white;
   padding: 0.5em;
 }
+
+#faq h4 {
+  display: inline-block;
+  text-align: left;
+}
+
+#faq img {
+  display: inline-block;
+  float: left;
+}
