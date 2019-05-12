@@ -99,10 +99,16 @@ ul {
 .flex-item {
   background-color: #d0fbf1;
   border-radius: 0.5em;
-  padding: 0.5em;
-  margin: 0.5em;
+  padding: 1em;
+  margin: 1em;
   width: 90%;
 }
+
+#survey {
+  margin-bottom: 10em;
+}
+
+
 
 @media only screen and (min-width: 640px) {
   h1 {font-size: 4.209em}
