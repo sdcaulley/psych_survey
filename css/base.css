@@ -105,8 +105,7 @@ img {
 }
 
 .button_w-border {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: block;
   max-width: 12em;
   font-weight: 700;
@@ -136,6 +135,7 @@ img {
 
 #faq h4 {
   display: inline-block;
+  margin: 1em 1em 1em 1em;
   text-align: left;
 }
 
@@ -144,6 +144,10 @@ img {
   margin-top: 0;
 }
 
-#faq .flex-container {
-  padding: 1em;
+#yours {
+  text-align: center;
+}
+
+#partners {
+  text-align: center;
 }
