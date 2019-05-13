@@ -119,6 +119,10 @@ img {
   border-radius: 12px;
 }
 
+.top {
+  text-align: center;
+}
+
 #purpose div {
   background-color: #4b16e9;
   border-radius: 0.5em;
