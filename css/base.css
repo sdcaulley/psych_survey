@@ -104,6 +104,22 @@ img {
     opacity .5s .25s;
 }
 
+.button_w-border {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 12em;
+  font-weight: 700;
+  background-color: transparent;
+  border: 3px solid #0C8066;
+  color: #0C8066;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.9em 1.4em 0.8em;
+  border-radius: 12px;
+}
+
 #purpose div {
   background-color: #4b16e9;
   border-radius: 0.5em;
