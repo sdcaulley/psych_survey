@@ -44,6 +44,11 @@ button {
   margin: 0 auto;
 }
 
+img {
+  margin-right: 1em;
+  margin-top: 0.5em;
+}
+
 .flex-container {
   display: flex;
 }
@@ -120,6 +125,7 @@ button {
 
 #faq img {
   display: inline-block;
+  margin-top: 0;
 }
 
 #faq .flex-container {
