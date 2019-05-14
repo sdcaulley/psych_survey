@@ -120,17 +120,18 @@ img {
 }
 
 .top {
+  background-color: FloralWhite;
   text-align: center;
 }
 
-#purpose div {
+#purpose-div {
   background-color: #4b16e9;
   border-radius: 0.5em;
   color: white;
   padding: 0.5em;
 }
 
-#about div {
+#about-div {
   background-color: #7e0c0c;
   border-radius: 0.5em;
   color: white;
