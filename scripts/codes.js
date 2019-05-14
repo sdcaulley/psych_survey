@@ -24,6 +24,10 @@ function partnerEvent(code) {
     text.select();
     document.execCommand('Copy');
     temp.remove();
+
+    let tooltip = $('<span class="tooltiptext">Link Copied to Clipboard</span>');
+    $('#tooltip').append(tooltip);
+    $('#tooltip').attr('class', 'hidden');
   });
 }
 

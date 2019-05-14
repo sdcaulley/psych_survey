@@ -124,6 +124,32 @@ img {
   text-align: center;
 }
 
+#tooltip {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tooltiptext {
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
 #purpose-div {
   background-color: #4b16e9;
   border-radius: 0.5em;
