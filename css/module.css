@@ -12,7 +12,7 @@ a {
   color: #0C8066;
 }
 
-ul {
+nav ul {
   background-color: #d0fbf1;
 }
 
@@ -74,7 +74,7 @@ ul {
     color: white;
   }
 
-  ul {
+  nav ul {
     background-color: inherit;
   }
   .icon-menu {
