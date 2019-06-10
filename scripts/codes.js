@@ -9,14 +9,14 @@ function generate_codes() {
 }
 
 function yourEvent(code) {
-  let urlA = 'https://survey.qualtrics.com/jfe/form/SID=SV_1234?usercode=' + code;
+  let urlA = 'https://maastrichtuniversity.eu.qualtrics.com/jfe/form/SV_a2WiCxAiOldCwnP?usercode=' + code;
   $('#your-button').click(function() {
     window.open(urlA);
   });
 }
 
 function partnerEvent(code) {
-  let urlB = 'https://survey.qualtrics.com/jfe/form/SID=SV_1234?usercode=' + code;
+  let urlB = 'https://maastrichtuniversity.eu.qualtrics.com/jfe/form/SV_a2WiCxAiOldCwnP?usercode=' + code;
   $('#partner-button').click(function() {
     let temp = $('<input type="text" id="urlB">').val(urlB);
     $('#partner-code').append(temp);
