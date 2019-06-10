@@ -12,35 +12,6 @@ a {
   color: #0C8066;
 }
 
-nav ul {
-  background-color: #d0fbf1;
-}
-
-.icon-menu {
-  float: right;
-}
-
-.main-nav {
-  display: inline-block;
-  float: right;
-}
-
-.main-nav ul {
-  display: none;
-  padding: 0;
-  list-style: none;
-  clear: both;
-}
-
-.main-nav:hover ul {
-  display: block;
-}
-
-.main-nav li {
-  display: block;
-  text-align: right;
-}
-
 #survey .flex-item {
   background-color: #d0fbf1;
   border-radius: 0.5em;
@@ -49,8 +20,18 @@ nav ul {
   width: 90%;
 }
 
+#survey .flex-container {
+  flex-direction: column;
+}
+
 #survey {
   margin-bottom: 30em;
+}
+
+#survey-link {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 2em;
 }
 
 
@@ -66,43 +47,15 @@ nav ul {
 
   h5 {font-size: 1.333em;}
 
-  nav {
-    background-color: #7e0c0c;
-  }
-
-  .main-nav a {
-    color: white;
-  }
-
-  nav ul {
-    background-color: inherit;
-  }
-  .icon-menu {
-    display: none;
-  }
-  .header {
-    display: block;
-    float: none;
-    text-align: center;
-  }
-  .main-nav {
-    display: block;
-    float: none;
-    margin: auto;
-    padding: 0.5em;
-    text-align: center;
-  }
-  .main-nav ul {
-    display: inline;
-    margin: auto;
-    }
-  .main-nav:hover ul {
-    display: inline;
-  }
-  .main-nav li {
-    display: inline-block;
+  #survey .flex-container {
+    flex-direction: row;
   }
   #survey .flex-item {
     width: 48%;
+  }
+  #survey-link {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2.5em;
   }
 }

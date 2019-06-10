@@ -29,6 +29,44 @@ nav li {
   list-style: none;
   padding: 1em;
 }
+nav {
+  background-color: #7e0c0c;
+}
+
+.main-nav a {
+  color: white;
+}
+
+nav ul {
+  background-color: inherit;
+}
+
+.header {
+  display: block;
+  float: none;
+  text-align: center;
+}
+
+.main-nav {
+  display: block;
+  float: none;
+  margin: auto;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.main-nav ul {
+  display: inline;
+  margin: auto;
+}
+
+.main-nav:hover ul {
+  display: inline;
+}
+
+.main-nav li {
+  display: inline-block;
+}
 
 section {
   margin: 10em 0;
@@ -174,10 +212,4 @@ img {
 
 #partners {
   text-align: center;
-}
-
-#survey-link {
-  font-size: 2em;
-  font-weight: bold;
-  line-height: 2.5em;
 }
